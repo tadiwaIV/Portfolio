@@ -9,7 +9,7 @@ class Portfolio extends Component {
 
         return (
             <section id="portfolio">
-        <Fade left duration={1000} distance="40px">
+        <Fade left duration={1000} distance="10px">
           <Container>
             <Row>
               <div className="twelve columns collapsed">
@@ -41,31 +41,35 @@ class Portfolio extends Component {
                   <span class="title">Survey Form</span>
                 </div>
               </Col>
-              <Col sm={12}>
-                <div class="item-wrap">
-                  <img src="images/portfolio/Door2Door.jpg" alt="Door2Door" />
-                  <span class="title">Door2Door</span>
-                </div>
-              </Col>
-              <Col sm={12}>
-                <div class="item-wrap">
-                  <img src="images/portfolio/QuoteGenerator.jpg" alt="Quote Generator" />
-                  <span class="title">Quote Generator</span>
-                </div>
-              </Col>
-              <Col sm={12}>
-                <div class="item-wrap">
-                  <img src="images/portfolio/TechDoc.jpg" alt="Technical Documentation" />
-                  <span class="title">Technical Documentation</span>
-                </div>
-              </Col>
-              <Col sm={12}>
-                <div class="item-wrap">
-                  <img src="images/portfolio/TributePage.jpg" alt="Tribute Page" />
-                  <span class="title">Tribute Page</span>
-                </div>
-              </Col>
-            </Row>
+              </Row>
+            </Container>
+            <Container>
+              <Row>
+                <Col sm={12}>
+                  <div class="item-wrap">
+                    <img src="images/portfolio/Door2Door.jpg" alt="Door2Door" />
+                    <span class="title">Door2Door</span>
+                  </div>
+                </Col>
+                <Col sm={12}>
+                  <div class="item-wrap">
+                    <img src="images/portfolio/QuoteGenerator.jpg" alt="Quote Generator" />
+                    <span class="title">Quote Generator</span>
+                  </div>
+                </Col>
+                <Col sm={12}>
+                  <div class="item-wrap">
+                    <img src="images/portfolio/TechDoc.jpg" alt="Technical Documentation" />
+                    <span class="title">Technical Documentation</span>
+                  </div>
+                </Col>
+                <Col sm={12}>
+                  <div class="item-wrap">
+                    <img src="images/portfolio/TributePage.jpg" alt="Tribute Page" />
+                    <span class="title">Tribute Page</span>
+                  </div>
+                </Col>
+              </Row>
           </Container>
         </Fade>
       </section>
