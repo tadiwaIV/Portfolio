@@ -9,14 +9,16 @@ const testData = [
       { bgcolor: "#9fa1d2", completed: 69, programmingLanguage: "PHP" },
       { bgcolor: "#e83847", completed: 83, programmingLanguage: "Javascript" },
       { bgcolor: "#feaf95", completed: 78, programmingLanguage: "ReactJS" },
+      { bgcolor: "#ef9e2b", completed: 84, programmingLanguage: "Git" },
+      { bgcolor: "#59d694", completed: 90, programmingLanguage: "Github" },
       { bgcolor: "#514d26", completed: 80, programmingLanguage: "Python" },
       { bgcolor: "#c20fa0", completed: 76, programmingLanguage: "Java" },
-    ];   
+    ];
 
-class Resume extends Component { 
+class Resume extends Component {
 
   render() {
-    if (!this.props.data) return null;    
+    if (!this.props.data) return null;
 
     return (
       <section id="resume">
@@ -36,12 +38,12 @@ class Resume extends Component {
                     Bsc in Computer Science <span>&bull;</span>
                     <em className="date">AUG 2016 - OCT 2020</em>
                   </p>
-                  <p>I am pursuing my under-graduation studies with major in I.C.T.(Information & Communication Technology). I have
+                  <p>I have recently completed my under-graduation studies with major in I.C.T.(Information & Communication Technology). I have
                     taken courses like DSA, OOPs, Computer Networks, IOT, Web-Data Management over the years and have better
                     understanding of these subjects
                   </p>
                   <h3>Primary and Higher Education</h3>
-                  <p className="info">                    
+                  <p className="info">
                     <em className="date"> JAN 2004 - NOV 2015</em>
                   </p>
                   <p>I have completed my higher secondary education with major subjects as Physics, Computer Science & Maths with.
