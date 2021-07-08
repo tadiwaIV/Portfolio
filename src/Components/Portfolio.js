@@ -80,7 +80,7 @@ class Portfolio extends Component {
                 <Col sm={12}>
                   <div class="item-wrap">
                   <a href="https://github.com/tadiwaIV/tribute-page">
-                    <img src="images/portfolio/TributePage.jpg" alt="Tribute Page" />
+                    <img src="images/portfolio/TributePage.JPG" alt="Tribute Page" />
                   </a>
                     <span class="title">Tribute Page</span>
                   </div>
