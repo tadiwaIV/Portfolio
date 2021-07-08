@@ -11,7 +11,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="square" bg={true} />
+        <ParticlesBg type="lines" bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -45,7 +45,7 @@ class Header extends Component {
                 Projects
               </a>
             </li>
-            
+
           </ul>
         </nav>
 
@@ -55,7 +55,7 @@ class Header extends Component {
               <h1 className="responsive-headline">Tadiwa Chivhere</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>Front-End Web Designer</h3>
+              <h3>Front-End Web Developer</h3>
             </Fade>
           </div>
         </div>
