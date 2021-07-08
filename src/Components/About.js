@@ -6,7 +6,6 @@ class About extends Component {
     if (!this.props.data) return null;
 
     const profilepic = "images/" + this.props.data.image;
-    const resumeDownload = this.props.data.resumedownload;
 
     return (
       <section id="about">
@@ -37,12 +36,12 @@ class About extends Component {
                     tadiwachivhere@gmail.com
                     <br />
                     <i class="fa fa-link"></i>
-                    https://www.website.com
+                    https://tadiwaiv.github.io/Portfolio/
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
+                    <a href="https://github.com/tadiwaIV/Portfolio" className="button">
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>

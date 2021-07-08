@@ -38,17 +38,19 @@ class Resume extends Component {
                     Bsc in Computer Science <span>&bull;</span>
                     <em className="date">AUG 2016 - OCT 2020</em>
                   </p>
-                  <p>I have recently completed my under-graduation studies with major in I.C.T.(Information & Communication Technology). I have
-                    taken courses like DSA, OOPs, Computer Networks, IOT, Web-Data Management over the years and have better
-                    understanding of these subjects
+                  <p>I have recently completed my under-graduation studies with Honours in Computer Science. I have taken courses
+                    like DSA, OOPs, Computer Networks, IOT, Web-Data Management over the years and have better understanding of
+                    these topics and technologies.
                   </p>
-                  <h3>Primary and Higher Education</h3>
+                  <h3>Primary and Secondary Education</h3>
                   <p className="info">
                     <em className="date"> JAN 2004 - NOV 2015</em>
                   </p>
-                  <p>I have completed my higher secondary education with major subjects as Physics, Computer Science & Maths with.
-                    During my time at school, I have developed interest in solving complex problems of the fundamental physics which
-                    helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.
+                  <p>In 2013 I completed my IGCSE Cambridge O Levels, obtaining pass marks in all my subjects, which included
+                    subjects such as Geography, ICT and English. I then went on to complete my secondary education in 2015 majoring
+                    in Physics, Computer Science and Maths for my A Level. During my time at school, I developed a interest in solving
+                    complex problems involving physics. This not only helped me improve my understanding of any problem, but also
+                    helped my ability to use mathematical skills solve said problems.
                   </p>
                 </div>
               </div>
