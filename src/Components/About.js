@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const profilepic = "images/" + this.props.data.image;   
+    const profilepic = "images/" + this.props.data.image;
     const resumeDownload = this.props.data.resumedownload;
 
     return (
@@ -15,7 +15,7 @@ class About extends Component {
             <div className="three columns">
               <img
                 className="profile-pic"
-                src="images/profilepic2.jpg"
+                src="images/profilepic2.JPG"
                 alt="Profile Pic"
               />
             </div>
@@ -23,8 +23,8 @@ class About extends Component {
               <h2>About Me</h2>
 
               <p>I’m a recent University grad with a major in Computer Science. I’m on the lookout for an opportunity that’ll enable me
-               to persue my passion for computersall the while providing me the oppurtunits to kickstart a career in Frontend Web 
-               Development. Im an avid gamer and sport enthusiast and enjoy the meeting and working with different types of people. 
+               to persue my passion for computersall the while providing me the oppurtunits to kickstart a career in Frontend Web
+               Development. Im an avid gamer and sport enthusiast and enjoy the meeting and working with different types of people.
                I’m a very social individual who prefers to work in a team.</p>
               <div className="row">
                 <div className="columns contact-details">
@@ -35,7 +35,7 @@ class About extends Component {
                     <br />
                     <i className="fa fa-envelope"></i>
                     tadiwachivhere@gmail.com
-                    <br />                    
+                    <br />
                     <i class="fa fa-link"></i>
                     https://www.website.com
                   </p>
