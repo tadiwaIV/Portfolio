@@ -67,14 +67,26 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
+              <h3>EcoCash</h3>
+              <p className="info">
+                Customer Service/Sales Agent
+                <span>&bull;</span> <em className="date"> November 2015 – December 2016 </em>
+              </p>
+              <p>Responsibilities included aiding customers in transferring money internationally, specifically to Zimbabwe, and providing
+                accurate assistance in mobile related queries.
+              </p>
+
               <h3>Intern - Grain Marketing Board(GMB)</h3>
               <p className="info">
-                Desktop Suppport Technician
+                Desktop Suppport Technician &amp; Junior Developer
                 <span>&bull;</span> <em className="date"> SEP 2018 - AUG 2019 </em>
               </p>
               <p>Responsibilities included the design and installation of well-functioning computer networks, connections and cabling.
                 Other tasks included performing system failure troubleshooting and identifying network bottlenecks to ensure long-term
-                network efficiency, software testing and configuration, hardware and peripheral equipment maintenance and repair.
+                network efficiency, software testing and configuration, hardware and peripheral equipment maintenance and repair. As the
+                junior developer I was tasked with assisting in designing, creating, delivering, and deploying data-driven applications,
+                both web-based and desktop. These applications were both for clients and occasionally the company. Other duties included
+                assisting with the development and maintenance of business applications.
               </p>
             </div>
           </div>
